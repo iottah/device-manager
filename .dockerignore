@@ -1,0 +1,12 @@
+.git
+.bsp
+.idea
+.run
+**/target
+.dockerignore
+.editorconfig
+.gitattributes
+.gitignore
+Dockerfile
+README.md
+*.db

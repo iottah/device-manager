@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package device.manager.v1;
+
+option java_package = "com.iottah.device.manager.v1";
+
+service DeviceManagerService {
+  rpc Create(CreateRequest) returns (CreateResponse);
+}
+
+message CreateRequest {
+  string name = 1;
+}
+
+message CreateResponse {
+  string id = 1;
+}
